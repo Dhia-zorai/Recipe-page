@@ -138,8 +138,23 @@
         color: hsl(14, 45%, 36%);
         font-size: 16px;
       }
-      hr{
+      hr {
         color: hsl(30, 10%, 34%);
+        border: none;
+        border-top: 0.3px solid hsl(30, 10%, 34%);
+        margin: 16px 0;
+      }
+
+      @media (max-width:480px) {
+        body{
+          min-height: 100vh;
+          display: felx;
+          justify-content: center;
+          align-items: center;
+        }
+        .main{
+          margin:5% 5%;
+        }
       }
     </style>
   </head>
